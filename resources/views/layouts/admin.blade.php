@@ -22,6 +22,17 @@
     <!-- plugins -->
     <link href="{{ asset('assets/libs/flatpickr/flatpickr.min.css') }}" rel="stylesheet" type="text/css" />
 
+    <style type="text/css">
+        @font-face {
+            font-family: Tajawal;
+            src: url('{{ public_path('fonts/Tajawal/Tajawal-Regular.tff') }}');
+        }
+
+        body,h4 {
+            font-family: 'Tajawal', serif;
+        }
+    </style>
+
     @yield('css')
 
 </head>

@@ -6,7 +6,7 @@
 
         <div class="media-body">
             <h6 class="pro-user-name mt-0 mb-0">{{ auth()->user()->getFullname() }}</h6>
-            <span class="pro-user-desc">{{ auth()->user()->email }}</span>
+            <span class="pro-user-desc">متصل</span>
         </div>
         <div class="dropdown align-self-center profile-dropdown-menu">
             <a class="dropdown-toggle mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false"
@@ -50,17 +50,17 @@
                 <li class="menu-title">Navigation</li>
 
                 <li>
-                    <a href="index.html">
+                    <a href="">
                         <i data-feather="home"></i>
                         <span class="badge badge-success float-right">1</span>
                         <span> Dashboard </span>
                     </a>
                 </li>
-                <li class="menu-title">Apps</li>
+                <li class="menu-title">البائعين</li>
                 <li>
-                    <a href="apps-calendar.html">
+                    <a href="{{route('vendor.index')}}">
                         <i data-feather="calendar"></i>
-                        <span> Calendar </span>
+                        <span> البائعين </span>
                     </a>
                 </li>
                 <li>
