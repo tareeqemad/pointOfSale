@@ -50,35 +50,22 @@
                 <li class="menu-title">Navigation</li>
 
                 <li>
-                    <a href="">
+                    <a href="{{route('home')}}">
                         <i data-feather="home"></i>
                         <span class="badge badge-success float-right">1</span>
-                        <span> Dashboard </span>
+                        <span> الصفحة الرئيسية </span>
                     </a>
                 </li>
-                <li class="menu-title">البائعين</li>
                 <li>
                     <a href="{{route('vendor.index')}}">
                         <i data-feather="calendar"></i>
                         <span> البائعين </span>
-                    </a>
-                </li>
-                <li>
-                    <a href="javascript: void(0);">
-                        <i data-feather="inbox"></i>
-                        <span> Email </span>
                         <span class="menu-arrow"></span>
                     </a>
 
                     <ul class="nav-second-level" aria-expanded="false">
                         <li>
-                            <a href="email-inbox.html">Inbox</a>
-                        </li>
-                        <li>
-                            <a href="email-read.html">Read</a>
-                        </li>
-                        <li>
-                            <a href="email-compose.html">Compose</a>
+                            <a href="{{route('vendor.create')}}">اضافة</a>
                         </li>
                     </ul>
                 </li>

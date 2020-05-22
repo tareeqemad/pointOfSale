@@ -22,16 +22,16 @@
     <!-- plugins -->
     <link href="{{ asset('assets/libs/flatpickr/flatpickr.min.css') }}" rel="stylesheet" type="text/css" />
 
-    <style type="text/css">
-        @font-face {
-            font-family: Tajawal;
-            src: url('{{ public_path('fonts/Tajawal/Tajawal-Regular.tff') }}');
-        }
 
-        body,h4 {
-            font-family: 'Tajawal', serif;
+    <link href="https://fonts.googleapis.com/css?family=Cairo:400,700" rel="stylesheet">
+    <style>
+        body, h1, h2, h3, h4, h5, h6 {
+            font-family: 'Cairo', sans-serif !important;
         }
     </style>
+
+    <!-- custom css -->
+    <link href="{{ asset('custom.css') }}" rel="stylesheet" type="text/css" />
 
     @yield('css')
 
